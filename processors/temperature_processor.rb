@@ -1,5 +1,7 @@
 
-class TemperatureProcesor
+class TemperatureProcessor
+  TYPE = :temperature
+
   TABLE_POSITIONS = {
     'Dy':     0,
     'MxT':    1,

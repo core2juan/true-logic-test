@@ -1,5 +1,7 @@
 
-class SoccerProcesor
+class SoccerProcessor
+  TYPE = :soccer
+
   TABLE_POSITIONS = {
     number:        0,
     team:          1,

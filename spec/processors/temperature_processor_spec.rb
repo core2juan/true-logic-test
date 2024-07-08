@@ -3,8 +3,8 @@ require 'pry'
 
 require_relative '../../processors/temperature_processor.rb'
 
-describe TemperatureProcesor do
-  subject { TemperatureProcesor.new(file_path) }
+describe TemperatureProcessor do
+  subject { TemperatureProcessor.new(file_path) }
 
   describe 'validations' do
     context 'when the file wrappers are wrong' do

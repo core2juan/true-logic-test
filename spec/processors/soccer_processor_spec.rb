@@ -3,8 +3,8 @@ require 'pry'
 
 require_relative '../../processors/soccer_processor.rb'
 
-describe SoccerProcesor do
-  subject { SoccerProcesor.new(file_path) }
+describe SoccerProcessor do
+  subject { SoccerProcessor.new(file_path) }
 
   describe 'validations' do
     context 'when the file wrappers are wrong' do
